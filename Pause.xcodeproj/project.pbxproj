@@ -10,6 +10,8 @@
 		5AEB96912F1FBA3A0011649C /* HelloProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB96902F1FB9020011649C /* HelloProvider.swift */; };
 		5AEB96A32F1FCF9F0011649C /* PauseWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5AEB96992F1FCF9E0011649C /* PauseWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5AEB96A82F1FD0040011649C /* HelloProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB96902F1FB9020011649C /* HelloProvider.swift */; };
+		5AEB96B62F20D6010011649C /* BreathingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB96B52F20D5F40011649C /* BreathingSession.swift */; };
+		5AEB96B72F20D6010011649C /* BreathingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB96B52F20D5F40011649C /* BreathingSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,18 @@
 		5A268BF02F1FAA43008653D3 /* Pause.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pause.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEB96902F1FB9020011649C /* HelloProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloProvider.swift; sourceTree = "<group>"; };
 		5AEB96992F1FCF9E0011649C /* PauseWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PauseWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AEB96B52F20D5F40011649C /* BreathingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5AEB96BF2F210DD00011649C /* Exceptions for "PauseWatch Watch App" folder in "PauseWatch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Untitled.swift,
+			);
+			target = 5AEB96982F1FCF9E0011649C /* PauseWatch Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5A268BF22F1FAA43008653D3 /* Pause */ = {
@@ -50,6 +63,9 @@
 		};
 		5AEB969A2F1FCF9E0011649C /* PauseWatch Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5AEB96BF2F210DD00011649C /* Exceptions for "PauseWatch Watch App" folder in "PauseWatch Watch App" target */,
+			);
 			path = "PauseWatch Watch App";
 			sourceTree = "<group>";
 		};
@@ -95,6 +111,7 @@
 		5AEB968F2F1FB8D20011649C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5AEB96B52F20D5F40011649C /* BreathingSession.swift */,
 				5AEB96902F1FB9020011649C /* HelloProvider.swift */,
 			);
 			path = Shared;
@@ -209,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AEB96B62F20D6010011649C /* BreathingSession.swift in Sources */,
 				5AEB96912F1FBA3A0011649C /* HelloProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AEB96B72F20D6010011649C /* BreathingSession.swift in Sources */,
 				5AEB96A82F1FD0040011649C /* HelloProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
