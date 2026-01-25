@@ -12,6 +12,10 @@
 		5AEB96A82F1FD0040011649C /* HelloProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB96902F1FB9020011649C /* HelloProvider.swift */; };
 		5AEB96B62F20D6010011649C /* BreathingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB96B52F20D5F40011649C /* BreathingSession.swift */; };
 		5AEB96B72F20D6010011649C /* BreathingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB96B52F20D5F40011649C /* BreathingSession.swift */; };
+		5AEB96CE2F24F9CC0011649C /* 设计文档.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AEB96CD2F24F9BD0011649C /* 设计文档.md */; };
+		5AEB96D12F250BFA0011649C /* 架构设计.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AEB96D02F250BEF0011649C /* 架构设计.md */; };
+		5AEB96DB2F250D510011649C /* 同步协议与时序规范.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AEB96DA2F250D4D0011649C /* 同步协议与时序规范.md */; };
+		5AEB96DD2F2663600011649C /* 接口文档.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AEB96DC2F2663520011649C /* 接口文档.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		5AEB96902F1FB9020011649C /* HelloProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloProvider.swift; sourceTree = "<group>"; };
 		5AEB96992F1FCF9E0011649C /* PauseWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PauseWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEB96B52F20D5F40011649C /* BreathingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingSession.swift; sourceTree = "<group>"; };
+		5AEB96CD2F24F9BD0011649C /* 设计文档.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "设计文档.md"; sourceTree = "<group>"; };
+		5AEB96D02F250BEF0011649C /* 架构设计.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "架构设计.md"; sourceTree = "<group>"; };
+		5AEB96DA2F250D4D0011649C /* 同步协议与时序规范.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "同步协议与时序规范.md"; sourceTree = "<group>"; };
+		5AEB96DC2F2663520011649C /* 接口文档.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "接口文档.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -92,6 +100,10 @@
 		5A268BE72F1FAA43008653D3 = {
 			isa = PBXGroup;
 			children = (
+				5AEB96DC2F2663520011649C /* 接口文档.md */,
+				5AEB96D02F250BEF0011649C /* 架构设计.md */,
+				5AEB96DA2F250D4D0011649C /* 同步协议与时序规范.md */,
+				5AEB96CD2F24F9BD0011649C /* 设计文档.md */,
 				5AEB968F2F1FB8D20011649C /* Shared */,
 				5A268BF22F1FAA43008653D3 /* Pause */,
 				5AEB969A2F1FCF9E0011649C /* PauseWatch Watch App */,
@@ -209,6 +221,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AEB96DD2F2663600011649C /* 接口文档.md in Resources */,
+				5AEB96D12F250BFA0011649C /* 架构设计.md in Resources */,
+				5AEB96CE2F24F9CC0011649C /* 设计文档.md in Resources */,
+				5AEB96DB2F250D510011649C /* 同步协议与时序规范.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pause/Pause.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
@@ -412,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pause/Pause.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
@@ -454,6 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PauseWatch Watch App/PauseWatch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -486,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PauseWatch Watch App/PauseWatch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
